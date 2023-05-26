@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&display=swap');
+
+
+/* -------------------------reset start----------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* -----------------------reset end----------------------------- */
+
+/* ---------------------variables start------------------------------- */
+:root {
+    --primary-color: #2294ed;
+    --bg-color: white;
+    --bg-color-dark: rgb(194, 188, 188);
+    --primary-padding: 2rem;
+    --Inter-font: 'Inter', sans-serif;
+    --Roboto-font: 'Roboto', sans-serif;
+}
+
+/* -----------------variables end------------------------------------------- */
+body{
+    font-family: var(--Roboto-font);
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--Inter-font);
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--Inter-font);
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--Inter-font);
+}
+p{
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    padding: var(--primary-padding);
+    font-size: 1.5rem;
+
+}
+a:hover{
+    color:var(--primary-color);
+}
+li{
+    list-style: none;
+}
+i{
+    position: relative;
+    top: .1rem;
+}
+/*------------------------------ utilities------------------------ */
+.flex-row{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inline-flex-row{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.inline-flex-column{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: var(--primary-padding);
+}
