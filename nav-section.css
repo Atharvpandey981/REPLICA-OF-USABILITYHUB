@@ -1,0 +1,40 @@
+.nav-left > img {
+  width: 18rem;
+}
+
+.nav-left-text{
+  width: 15rem;
+  height: 3rem;
+  background-image: url(assets/asset33.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.nav-left-text > p{
+  color: #183b56;
+  font-size: 1.4rem;
+padding:  .8rem 0 0 0 ;
+}
+
+.nav-section > .container > nav{
+  justify-content: space-between;
+}
+
+.nav-right > ul>:nth-child(1) > ul , .nav-right > ul>:nth-child(4) > ul {
+
+  display: none;
+}
+
+.nav-right > ul>:nth-child(1):hover > ul , .nav-right > ul>:nth-child(4):hover > ul {
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: .2rem .2rem black 10rem;
+  position: absolute;
+  display: block;
+}
+
+ul > li {
+  font-weight: 900;
+  padding: .5rem 1rem;
+}
