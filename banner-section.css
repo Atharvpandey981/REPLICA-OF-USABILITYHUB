@@ -1,15 +1,9 @@
-.banner-section{
+.banner-section {
     background-image: url(assets/asset32.png);
     background-color: #e74694;
-   background-size: 30rem;
+    background-size: 30rem;
 }
-
-.banner-section>.container>p{
-    font-size: 1.5rem;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    color: var(--bg-color);
-}
-.banner-section>.container>p>a{
-    color: white;
+.banner-section > .container > p > a{
+    color: #fff;
+    margin: 1.6rem 0;
 }
