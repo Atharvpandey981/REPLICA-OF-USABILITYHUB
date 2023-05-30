@@ -1,0 +1,183 @@
+.nav-left > img {
+  width: 18rem;
+}
+
+.nav-left-text{
+  width: 15rem;
+  height: 3rem;
+  background-image: url(assets/asset33.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.nav-left-text > p{
+  color: #183b56;
+  font-size: 1.4rem;
+padding:  .8rem 0 0 0 ;
+}
+
+.nav-section > .container > nav{
+  justify-content: space-between;
+}
+
+.nav-right > ul>:nth-child(1) > ul , .nav-right > ul>:nth-child(4) > ul {
+
+  display: none;
+}
+
+.nav-right > ul>:nth-child(1):hover > ul , .nav-right > ul>:nth-child(4):hover > ul {
+  width: 19rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: .2rem .2rem 1rem black ;
+  position: absolute;
+  display: block;
+  z-index: 99999;
+}
+
+.nav-right > ul>:nth-child(1):hover > ul , .nav-right > ul>:nth-child(4):hover > ul > li>a{
+  padding:2rem 0;
+}
+
+
+.nav-right >:nth-child(2){
+width:10rem;
+height:5rem;
+border: none;
+font-size: 1.5rem;
+font-weight: 500;
+background-color: transparent;
+outline: .1rem var(--primary-color);
+border-radius: 1rem;
+}
+
+.nav-right >:nth-child(3){
+  width:10rem;
+  height:5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+border-radius: 1rem;
+color: white;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&display=swap');
+
+
+/* -------------------------reset start----------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* -----------------------reset end----------------------------- */
+
+/* ---------------------variables start------------------------------- */
+:root {
+    --primary-color: #2294ed;
+    --bg-color: white;
+    --bg-color-dark: rgb(194, 188, 188);
+    --primary-padding: 2rem;
+    --Inter-font: 'Inter', sans-serif;
+    --Roboto-font: 'Roboto', sans-serif;
+}
+
+/* -----------------variables end------------------------------------------- */
+body{
+    font-family: var(--Roboto-font);
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--Inter-font);
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--Inter-font);
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--Inter-font);
+}
+p{
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 2rem;
+}
+a{  
+    color:black;
+    text-decoration: none;
+    padding: var(--primary-padding);
+    font-size: 1.5rem;
+
+}
+a:hover{
+    color:var(--primary-color);
+}
+li{
+    list-style: none;
+    font-weight: 900;
+    padding: .5rem 1rem;
+}
+
+/*------------------------------ utilities------------------------ */
+.flex-row{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inline-flex-row{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.inline-flex-column{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: var(--primary-padding);
+}
