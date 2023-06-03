@@ -7,9 +7,17 @@
     width: 58.6rem;
 }
 
+
 .hero-div > h1{
     text-align: left!important;
 }
+
+=======
+
+.hero-div > h1{
+    text-align: left!important;
+}
+ frontend-project3
 
 .hero-div > p{
     text-align: left;
