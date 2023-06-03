@@ -29,6 +29,7 @@ body{
 h1{
     font-size:4rem;
     text-align: center;
+
 }
 
 h2{
@@ -51,6 +52,7 @@ p{
 li{
     list-style: none;
     padding:1rem 2rem;
+
 }
 
 a{
@@ -62,6 +64,19 @@ a{
 a:hover{
     color: var(--primary-color);
 }
+
+}
+
+a{
+    font-size: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+a:hover{
+    color: var(--primary-color);
+}
+
 
 
 .flex-row{
