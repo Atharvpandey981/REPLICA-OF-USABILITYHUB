@@ -18,7 +18,6 @@
 
 @media screen and (width < 1040px) {
     html{
-
         font-size: 35% !important;
     }
 }
@@ -45,21 +44,6 @@
 }
 .flex-row{
     flex-wrap: wrap !important;
-
-        font-size: 38% !important;
-    }
-}
-
-@media screen and (width < 750px) {
-    html{
-        font-size: 30% !important;
-    }
-}
-
-@media screen and (width < 600px){
-.flex-row{
-    flex-wrap: wrap;
-
 }
 .hero-div > h1{
     text-align: center !important;
@@ -90,13 +74,8 @@ hr{
     margin: 2rem auto !important;
 }
 .footer-section > .container {
-
     /* flex-direction: column !important; */
     padding: 4rem 0 !important;
-
-    flex-direction: column !important;
-    padding-bottom: 1rem;
-
 }
 }
 @media screen and (width <500px){
@@ -107,21 +86,12 @@ hr{
     .nav-right{
         margin: 2rem ;
     }
-
     li{
         padding: 1rem !important;
     }
 }
 
 @media  screen and (width < 350px) {
-
-}
-
-@media  screen and (width < 350px) {
-    li{
-        padding: 1rem !important;
-    }
-
 }
 
 @media screen  and (width < 600px) and (width>447px){
