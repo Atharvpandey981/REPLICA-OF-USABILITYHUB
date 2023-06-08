@@ -1,0 +1,88 @@
+@media screen and (width > 2000px){
+    html{
+        font-size: 100% !important;
+    }
+}
+
+@media screen and (width > 1600px) and (width < 2000px) {
+    html{
+        font-size: 80% !important;
+    }
+}
+
+@media screen and (width < 1250px) {
+    html{
+        font-size: 50% !important;
+    }
+}
+
+@media screen and (width < 1040px) {
+    html{
+        font-size: 38% !important;
+    }
+}
+
+@media screen and (width < 750px) {
+    html{
+        font-size: 30% !important;
+    }
+}
+
+@media screen and (width < 600px){
+.flex-row{
+    flex-wrap: wrap;
+}
+.hero-div > h1{
+    text-align: center !important;
+}
+.hero-div > button{
+    display: block;
+    margin: 2rem auto !important;
+}
+hr{
+    display: block !important;
+}
+.page-section > .container{
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.footer-section > .container >:nth-child(1){
+    align-items: center !important;
+}
+.s-f-content{
+    font-size: 1.5rem;
+}
+.footer-section > .container >:nth-child(1){
+    display: none !important;
+}
+.p-s-div > button{
+    display: block;
+    margin: 2rem auto !important;
+}
+.footer-section > .container {
+    flex-direction: column !important;
+    padding-bottom: 1rem;
+}
+}
+@media screen and (width <500px){
+    nav{
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .nav-right{
+        margin: 2rem ;
+    }
+}
+
+@media  screen and (width < 350px) {
+    li{
+        padding: 1rem !important;
+    }
+}
+
+@media screen  and (width < 600px) and (width>447px){
+    .e-x-main>:nth-child(4){
+        width: 70% !important;
+    }
+}

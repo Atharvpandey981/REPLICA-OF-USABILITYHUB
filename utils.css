@@ -55,16 +55,11 @@ li{
 
 }
 
-a{
-    font-size: 1.5rem;
-    display: inline-block;
-    text-decoration: none;
-    color: var(--primary-text-color);
-}
-a:hover{
-    color: var(--primary-color);
-}
-
+hr{
+    display: none;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 2rem;
 }
 
 a{
@@ -76,13 +71,12 @@ a{
 a:hover{
     color: var(--primary-color);
 }
-
-
 
 .flex-row{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-wrap: wrap; */
 }
 
 .flex-column{
@@ -113,6 +107,7 @@ a:hover{
 .container{
     max-width: 120rem;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 ::-webkit-scrollbar{
     width: .4rem;

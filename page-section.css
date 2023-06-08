@@ -86,3 +86,6 @@ font-size: 2rem;
     font-size: 5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.p-s-img > img{
+    width: 44%;
+}
