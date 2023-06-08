@@ -19,6 +19,7 @@ nav {
     font-size: 1.5rem;
 }
 
+
 .nav-right>ul>:nth-child(1)>ul {
     z-index: 9999;
     box-shadow: .1rem .1rem 1rem black;
@@ -80,4 +81,7 @@ margin: 0 0  0 1rem;
 .nav-right > ul> :nth-child(6):hover{
     cursor: pointer;
     background-color: var(--primary-color-dark);
+}
+.fa-bars:before{
+    display: none;
 }
