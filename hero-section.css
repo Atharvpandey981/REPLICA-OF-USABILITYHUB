@@ -12,15 +12,16 @@
     text-align: left!important;
 }
 
-=======
-
+.her-div{
+    width: 10rem;
+}
 .hero-div > h1{
     text-align: left!important;
 }
  frontend-project3
 
 .hero-div > p{
-    text-align: left;
+    text-align: left !important;
     line-height: 3rem;
     width: 50rem;
 }
