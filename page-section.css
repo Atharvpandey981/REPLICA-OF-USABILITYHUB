@@ -8,7 +8,8 @@
 .p-s-img{
     background-image: url(assets/asset40.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position:  center;
     width:60rem;
     height: 60rem;
 }
@@ -85,4 +86,7 @@ font-size: 2rem;
     color: #2294ed;
     font-size: 5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p-s-img > img{
+    width: 44%;
 }
